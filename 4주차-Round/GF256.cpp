@@ -446,8 +446,8 @@ void test_Sbox() {
 
 
 
-// int main() {
-// //   test_GF256();
-//     test_Sbox();
-//     // test_order();
-// }
+int main() {
+//   test_GF256();
+    // test_Sbox();
+    test_order();
+}
