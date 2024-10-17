@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/violet/Desktop/대학교 자료/4학년 2학기/보안S:W/code/6주차",
+      "program": "/Users/violet/Desktop/대학교 자료/4학년 2학기/보안S:W/code/6주차/build/Debug/outDebug"
+    }
+  ]
+}

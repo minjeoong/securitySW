@@ -1,6 +1,9 @@
+#ifndef GF256_H
+#define GF256_H
 
-#ifndef GF256.h
-#define GF256.h
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 typedef unsigned char byte; // byte는 GF(2^8) 유한체의 원소를 저장하는 데이터타입
 
@@ -14,4 +17,8 @@ byte GF256_inv(byte x);
 void Get_AES_Sbox(byte S[256]);
 void Get_AES_Inv_Sbox(byte IS[256]);
 
+#ifdef __cplusplus
+}
 #endif
+
+#endif // GF256_H
